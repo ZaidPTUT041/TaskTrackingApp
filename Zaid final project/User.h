@@ -4,6 +4,7 @@
 
 #include<iostream>
 #include<string>
+#include"Task.h"
 using namespace std;
 
 
@@ -13,6 +14,7 @@ class User
 private:
 	string name;
 	string password;
+	Task* tasks;
 
 public:
 
